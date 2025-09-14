@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   Button,
   Modal,
@@ -14,14 +14,6 @@ import {
 export default function ApplicationDetailsDialog({ application, visible, onClose }) {
   const [comments, setComments] = useState('');
   const [files, setFiles] = useState([]); // initialize as empty array
-    
-  // Reset modal state when opening a new application
-  // useEffect(() => {
-  //   if (visible) {
-  //     setComments('');
-  //     setFiles([]);
-  //   }
-  // }, [visible, application]);
 
   const handleApprove = () => {
     console.log('Approved:', application.id, 'Files:', files);

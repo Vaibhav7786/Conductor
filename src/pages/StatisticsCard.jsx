@@ -1,4 +1,4 @@
-import { Box, SpaceBetween, Container, ColumnLayout } from '@cloudscape-design/components';
+import { Box, Container, ColumnLayout } from '@cloudscape-design/components';
 
 export default function StatisticsCard() {
   const stats = [
