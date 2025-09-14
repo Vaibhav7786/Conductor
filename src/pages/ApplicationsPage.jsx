@@ -5,7 +5,6 @@ import { useState } from 'react';
 import ApplicationDetailsDialog from '../components/ApplicationDetails';
 
 export default function DataTable() {
-  const [selectedItems, setSelectedItems] = useState([]);
   const [isDialogVisible, setDialogVisible] = useState(false);
   const [selectedApplication, setSelectedApplication] = useState(null);
   const items = [
@@ -40,8 +39,7 @@ export default function DataTable() {
                 variant={selectedApplication?.id === item?.id ? 'primary' : 'normal'}
                 shape="round"
                 onClick={() => {
-                  setSelectedApplication(item)
-                  setSelectedItems(item)
+                  setSelectedApplication(item);
                 }}
               >
                 •
@@ -55,7 +53,6 @@ export default function DataTable() {
         ]}
         items={items}
         selectionType="single"
-        selectedItems={selectedItems}
         // onSelectionChange={({ detail }) => {
         //   const selectionArray = Array.isArray(detail.selectedItems) ? detail.selectedItems : [];
         //   console.log("selectionArray: ",selectionArray);          
