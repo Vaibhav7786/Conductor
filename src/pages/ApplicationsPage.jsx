@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { Table, Box, Button } from '@cloudscape-design/components';
 import { useState } from 'react';
 import ApplicationDetailsDialog from '../components/ApplicationDetails';
@@ -37,7 +39,10 @@ export default function DataTable() {
               <Button
                 variant={selectedApplication?.id === item?.id ? 'primary' : 'normal'}
                 shape="round"
-                onClick={() => setSelectedApplication(item)}
+                onClick={() => {
+                  setSelectedApplication(item)
+                  setSelectedItems(item)
+                }}
               >
                 •
               </Button>

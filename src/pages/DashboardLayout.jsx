@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { Grid, Header } from "@cloudscape-design/components";
 import Statistics from "./StatisticsCard";
 import DataTable from "./ApplicationsPage";

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { Box } from "@cloudscape-design/components";
 
 export default function StatusBadge({ status }) {

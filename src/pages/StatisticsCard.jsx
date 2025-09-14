@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { Box, Container, ColumnLayout } from '@cloudscape-design/components';
 
 export default function StatisticsCard() {

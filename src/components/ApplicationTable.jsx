@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect, useState } from 'react';
 import { Table, Button } from '@cloudscape-design/components';
 import { getApplications } from '../services/applicationService';

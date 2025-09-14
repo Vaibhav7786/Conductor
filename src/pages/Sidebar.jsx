@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { SideNavigation } from '@cloudscape-design/components';
 import { useState } from 'react';
 

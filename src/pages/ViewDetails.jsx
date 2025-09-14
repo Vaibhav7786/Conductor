@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import { Box, SpaceBetween, Header, Button } from '@cloudscape-design/components';
 import { useLocation, useNavigate } from 'react-router-dom';

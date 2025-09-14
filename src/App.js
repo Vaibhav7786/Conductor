@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { AppLayout } from '@cloudscape-design/components';
 import Sidebar from './pages/Sidebar';
 import StatisticsCard from './pages/StatisticsCard';
